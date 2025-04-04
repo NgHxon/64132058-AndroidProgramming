@@ -11,15 +11,84 @@
         android:id="@+id/textView"
         android:layout_width="158dp"
         android:layout_height="58dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="170dp" />
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="130dp"
+        android:text="Điểm Giữa kỳ(50%)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="158dp"
         android:layout_height="58dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="126dp"
+        android:text="Điểm thi cuối kì(50%)"
+        tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="266dp" />
+
+    <EditText
+        android:id="@+id/editA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <EditText
+        android:id="@+id/editB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/btnDTB"
+        android:layout_width="168dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginEnd="122dp"
+        android:onClick="Xulydiemtb"
+        android:text="Tính điểm TB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <EditText
+        android:id="@+id/editKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <ImageView
+        android:id="@+id/imgExample"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="150dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logontu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="256dp"
+        android:layout_height="89dp"
+        android:text="Tính điểm trung bình môn học"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="25dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,8 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
-
+import android.widget.EditText;
+import android.view.View;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -20,7 +21,7 @@ public class Activity2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        public void XuLyCong(View view){
+        public void Xulydiemtb(View view){
             EditText editTextsoA = findViewById(R.id.editA);
             EditText editTextsoB = findViewById(R.id.editB);
             EditText editTextKetqua = findViewById(R.id.editKQ);
@@ -39,4 +40,3 @@ public class Activity2 extends AppCompatActivity {
         }
     }
     }
-}
