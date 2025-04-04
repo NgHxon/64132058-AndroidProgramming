@@ -8,10 +8,13 @@
     tools:context=".Activity3">
 
     <ListView
-        android:layout_width="337dp"
-        android:layout_height="475dp"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="155dp" />
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="200dp" />
+
     <ImageView
         android:id="@+id/imgExample"
         android:layout_width="76dp"

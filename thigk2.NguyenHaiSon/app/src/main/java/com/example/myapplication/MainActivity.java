@@ -20,6 +20,16 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, Activity2.class);
             startActivity(intent);
         });
+        Button btn2 = findViewById(R.id.btn2);
+        btn1.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, Activity3.class);
+            startActivity(intent);
+        });
+        Button btn4 = findViewById(R.id.btn4);
+        btn1.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, aboutme.class);
+            startActivity(intent);
+        });
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
